@@ -1,0 +1,53 @@
+body{
+  background-color: white;
+}
+
+#title {
+  background-color: white;
+  color: blue;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#text-button {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #232323;
+  margin: 50px auto;
+}
+
+#text{
+  color: black;
+}
+
+#time-block{
+  background-color: white;
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#reset-button {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+  border: 1px solid #232323;
+  margin: 10px auto;
+}
+
+#init-button {
+  background-color: white;
+  display: block;
+  cursor: pointer;
+  width: 400px;
+  text-align: center;
+  border: 1px solid #232323;
+  margin: 180px auto 0 auto;
+}
