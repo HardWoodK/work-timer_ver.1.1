@@ -1,5 +1,10 @@
 body{
   background-color: white;
+  width: 500px;
+  text-align: center;
+  padding: 0 0 10px 0;
+  border: 2px solid #232323;
+  margin: 10px auto;
 }
 
 #title {
@@ -49,5 +54,5 @@ body{
   width: 400px;
   text-align: center;
   border: 1px solid #232323;
-  margin: 180px auto 0 auto;
+  margin: 160px auto 0 auto;
 }

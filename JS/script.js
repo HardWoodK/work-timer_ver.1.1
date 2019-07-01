@@ -11,7 +11,7 @@ const imgList = new Array(
   './picture/fitness6.PNG'
 )
 // let output = './picture/bad.png';
-let output = "<img src=" + imgList[selectnum] + ">";
+// let output = <img src = imgList[selectnum]>;
 
 document.getElementById("text-button").onclick = function(){
   start = 1;
@@ -29,7 +29,7 @@ document.getElementById("reset-button").onclick = function(){
 }
 
 document.getElementById("init-button").onclick = function(){
-  Push.create("通知を許可")
+  Push.create("通知が許可されました")
 }
 
 setInterval("time()", 1000);
@@ -54,7 +54,7 @@ function note(){
 function time(){
   if(start === 1){
     second++;
-    note();
+    if(second % 5 === 0) note();
     if(second === 60){
       minute++;
       second = 0;
@@ -65,7 +65,6 @@ function time(){
       note();
     }
     document.getElementById("time").innerHTML
-      = output +
-     hour + "時間 " + minute + "分 " + second + "秒";
+      = hour + "時間 " + minute + "分 " + second + "秒";
   }
 }
