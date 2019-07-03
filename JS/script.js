@@ -54,7 +54,6 @@ function note(){
 function time(){
   if(start === 1){
     second++;
-    if(second % 5 === 0) note();
     if(second === 60){
       minute++;
       second = 0;
